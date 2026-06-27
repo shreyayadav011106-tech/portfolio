@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MYPORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <h2>SHREYA</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-box">
+                <h1>Hello, I'm Shreya Yadav</h1>
+                <p>Aspiring Engineer</p>
+            </div>
+            <div class="hero-box">
+                <img class="hero-image" src="photo.jpeg" alt="My Image" />
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <h3>Skills</h3>
+        <div class="skills-content">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CANVA</li>
+                <li>C++</li>
+                <li>JAVA</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <h3>Projects</h3>
+        <div class="project-container">
+            <div class="project-content">
+                <h4>Real Search Restro Website</h4>
+                <a href="https://shreyayadav011106-tech.github.io/RS_Restro/" target="_blank">View on Github</a>
+            </div>
+            <div class="project-content">
+                <h4>Other Projects</h4>
+                <p>Upcoming soon...</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h3>Contact Me</h3>
+        <form action="action.php" method="post">
+            <div class="name-email-container">
+                <div class="contact-content">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" placeholder="Enter your name" required/>
+                </div>
+                <div class="contact-content">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required />
+                </div>
+            </div>
+            <div class="contact-content">
+                <div><label for="feedback">Feedback</label></div>
+                <textarea id="feedback" placeholder="Your feedback" rows="5"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Shreya Yadav. All Rights Reserved.</p>
+        <p>Thanks for Visiting.</p>
+    </footer>
+</body>
+
+</html>
